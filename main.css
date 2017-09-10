@@ -1,0 +1,53 @@
+/*Header*/
+#header {
+	font-size: 48px;
+	font-family: 'Satisfy', cursive;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*Masthead*/
+#masthead {
+	background-color: #333;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.mhtext {
+	text-align: center;
+	color: #EEE;
+	font-size: 18px;
+}
+/*Article*/
+#article {
+	background-color: #EEE;
+}
+.title {
+	font-size: 32px;
+}
+.author {
+	font-size: 18px;
+	font-style: italic;
+}
+.textwrap {
+	text-align: justify;
+	/*text-indent: 2.5em;*/
+	display: inline-block;
+}
+.imdisp {
+	width: 400px;
+	float: right;
+	display: inline-block;
+	margin-left: 20px;
+}
+/*Upload form*/
+.formarea {
+	margin: 20px;
+}
+.formtext {
+	font-family: monospace;
+	font-size: 16px;
+}
+/*misc*/
+.nolink {
+	color: black;
+}
