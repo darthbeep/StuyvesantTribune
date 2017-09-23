@@ -1,0 +1,3 @@
+function returnPreviewFromNumber(artNum) {
+
+}

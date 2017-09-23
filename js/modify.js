@@ -9,7 +9,7 @@ function requestArticleModify() {
 			displayData(this.responseText);
 		}
 	};
-	xmlhttp.open("GET", "fetchall.php", true);
+	xmlhttp.open("GET", "../php/fetchall.php", true);
 	xmlhttp.send();
 }
 
@@ -38,6 +38,6 @@ function remove(key) {
 			console.log(this.responseText);
 		}
 	}
-	x.open("GET", "delete.php?number=" + key, true);
+	x.open("GET", "../php/delete.php?number=" + key, true);
 	x.send();
 }

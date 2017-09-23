@@ -8,7 +8,7 @@ function requestArticle(key) {
 			//document.getElementById("article").innerHTML = this.responseText;
 		}
 	};
-	xmlhttp.open("GET", "fetchall.php", true);
+	xmlhttp.open("GET", "../php/fetchall.php", true);
 	xmlhttp.send();
 }
 
@@ -31,7 +31,7 @@ function setupSpecificArticle(key) {
 			//document.getElementById("article").innerHTML = this.responseText;
 		}
 	};
-	xmlhttp.open("GET", "../fetchall.php", true);
+	xmlhttp.open("GET", "../php/fetchall.php", true);
 	xmlhttp.send();
 }
 
@@ -55,7 +55,7 @@ function requestArticleDispatch() {
 			useData(this.responseText);
 		}
 	};
-	xmlhttp.open("GET", "fetchall.php", true);
+	xmlhttp.open("GET", "../php/fetchall.php", true);
 	xmlhttp.send();
 }
 
@@ -67,6 +67,6 @@ function postArticle(title, author, image, text) {
 			document.getElementById("article").innerHTML = this.responseText;
 		}
 	}
-	x.open("GET", "update.php?ti=" + title +"&a=" + author + "&i=" + image + "&te=" + text);
+	x.open("GET", "../php/update.php?ti=" + title +"&a=" + author + "&i=" + image + "&te=" + text);
 	x.send();
 }
