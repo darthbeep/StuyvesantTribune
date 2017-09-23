@@ -51,3 +51,25 @@
 .nolink {
 	color: black;
 }
+/*Previewing articles*/
+.preview-image {
+	height: 75px;
+	float: left;
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 0px;
+}
+
+.preview-dimensions {
+	/*max-height: 200px;*/
+	border: 1px solid #333;
+	padding: 10px;
+	border-radius: 5px;
+	/*height: 100px;*/
+}
+
+.preview-container {
+	display: inline-block;
+	text-align: justify;
+	/*height: 100px;*/
+}

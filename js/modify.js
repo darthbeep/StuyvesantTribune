@@ -24,7 +24,7 @@ function displayData(dat) {
 		rows += "<td>" + use[i].author + "</td>";
 		rows += "<td>" + use[i].image + "</td>";
 		rows += "<td>" + use[i].text + "</td>";
-		rows += "<td><a href='edit.html?id=" + use[i].number + "'><button class='nolink'>edit</button></a><br><button onclick='remove(" + use[i].number  +")'>delete</button></td>";
+		rows += "<td><a href='../html/edit.html?id=" + use[i].number + "'><button class='nolink'>edit</button></a><br><button onclick='remove(" + use[i].number  +")'>delete</button></td>";
 		rows += "</tr>";
 	}
 	rows += "</tbody>"
