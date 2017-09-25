@@ -73,3 +73,8 @@
 	text-align: justify;
 	/*height: 100px;*/
 }
+
+.preview-title {
+	font-size: 18px;
+	font-weight: bold;
+}
